@@ -1,108 +1,29 @@
-.input,
-.textarea{
-  width: 100%;
-  padding: 15px 25px;
-  background: rgba(17, 17, 17, 0.5);
-  border: 1px solid #111 !important;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: .3s;
-  color: #fff !important;
+input,
+textarea{
+
   &::-webkit-input-placeholder {
-    font-size: 16px;
-    color: #fff;
+
   }
   &::-moz-placeholder {
-    font-size: 16px;
-    color: #fff;
+
   }
   &:-ms-input-placeholder {
-    font-size: 16px;
-    color: #fff;
+
   }
   &:hover,
   &:focus{
-    border-color: transparentize(#f95f00, 0.5) !important;
+
   }
 }
 
-.input{
-  height: 50px;
-  & + .input{
-    margin-top: 20px;
-  }
-  &.input__light{
-    color: #111 !important;
-    background-color: rgba(221, 221, 221, 0.5);
-    border: 1px solid #dcdcdc !important;
-    &::-webkit-input-placeholder {
-      color: #111;
-    }
-    &::-moz-placeholder {
-      color: #111;
-    }
-    &:-ms-input-placeholder {
-      color: #111;
-    }
-    &:hover,
-    &:focus{
-      border-color: transparentize(#f95f00, 0.5) !important;
-    }
-  }
+input{
+
 }
 
-.textarea{
-  height: 260px;
-  font-family: roboto_regular, sans-serif;
-  @media (max-width: 768px) {
-    height: 200px;
-  }
-  @media (max-width: 480px) {
-    height: 160px;
-  }
+textarea{
+
 }
 
-.label{
-  display: block;
-  font-size: 16px;
-  cursor: pointer;
-  transition: .3s;
-  overflow: hidden;
-  line-height: 1.7;
-  position: relative;
-  padding-left: 45px;
-  &:hover{
-    color: #f95f00;
-  }
-  & + .label{
-    margin-top: 20px;
-  }
-  @media (max-width: 480px) {
-    line-height: 1.2;
-    padding: 5px 0 5px 35px;
-  }
-}
+label{
 
-.checkbox{
-  display: none;
-}
-
-.checkbox_img{
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-color: rgba(17, 17, 17, 0.5);
-  border: 1px solid #111;
-  border-radius: 4px;
-  .checkbox:checked + &{
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAXCAYAAAAcP/9qAAABs0lEQVRIS7XVu0/bUBTH8e8JuqGiEn8D/BmdGEnCQyywQYwUsaUduiGBIsHYSsCQCQESjy59MDOBeP0Z8DdAJ6f4IIfYNYnj6zhJNsfW+dzfuefawhB/6vChAd9RPiHs54+oB5wMy9Uqo+4z5yiFwMgJm+aILf96KHAcGuI5Nswh2wOHm+gTf4Bit26KsDZQOA3abLNwNTC41d7fKCXb3OSE2kDgXlARjs0Ezju4UWbTEyqi3JsRKnLAs231WiPvPuInnbE9G6I1vBB2HXZU+RI5Zz4+nYRnRcPj1I6GuHBnchTi8Cb6wC9g1poUTswkZanhhbUbZb568C1h9G/NGAWp8zd4pl+0mdh1uFRlKmnVAjfmI0Ufb7X3J8pclqSpE0fafm1GWHD/cQjM94Na97i9uMCTwrgVFU7NBCvRPY2p9fZXtwGzIR0FfbREWZZ4sWzf/9v94pISjf06uavsqsfnDEnPTIkVW9LIe6KT6BUXoSc0NnGwjLR4FjQRbg3cnirVhJdLz0kTWx2FXIdYXOCHmWE57Z52PU5Jw9SO94taWx1dTMNhXWFRhYt8kfWsSYOarx9+xEzrWjirAAAAAElFTkSuQmCC");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 21px 16px;
-  }
 }
