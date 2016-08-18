@@ -1,0 +1,47 @@
+/**
+* RESET
+*/
+@import "includes/reset";
+
+/**
+* SETTINGS
+*/
+@import "includes/settings/sizes";
+@import "includes/settings/color";
+
+/**
+* TOOLS
+*/
+@import "includes/tools/mixins";
+
+/**
+* BASE
+*/
+@import "includes/base/fonts";
+@import "includes/base/base";
+@import "includes/base/baseForm";
+
+/**
+* COMPONENTS
+*/
+@import "includes/components/button";
+@import "includes/components/header";
+@import "includes/components/footer";
+
+/**
+* PLUGINS
+*/
+@import "includes/plugins/colorbox";
+
+/**
+* UTILS
+*/
+//@import "includes/utils/*";
+@import "includes/utils/animation";
+@import "includes/utils/margin";
+@import "includes/utils/text-align";
+@import "includes/utils/text-transform";
+@import "includes/utils/font-color";
+@import "includes/utils/float";
+@import "includes/utils/clr";
+@import "includes/utils/grid";

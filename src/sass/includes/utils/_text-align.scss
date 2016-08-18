@@ -1,0 +1,7 @@
+$value: left, right, center;
+
+@each $val in $value {
+  .u-text-align--#{$val} {
+    text-align: $val;
+  }
+}

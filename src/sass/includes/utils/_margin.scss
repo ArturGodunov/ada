@@ -1,0 +1,16 @@
+$valueNegative: ((-5, xs), (-10, sm), (-15, reg), (-20, md), (-30, lg), (-40, xl));
+$value: ((0, none), (5, xs), (10, sm), (15, reg), (20, md), (30, lg), (40, xl));
+$direction: top, right, bottom, left;
+
+@each $dir in $direction {
+  @each $val, $size in $valueNegative {
+    .u-m--n-#{$dir}-#{$size} {
+      margin-#{$dir}: #{$val}px;
+    }
+  }
+  @each $val, $size in $value {
+    .u-m--#{$dir}-#{$size} {
+      margin-#{$dir}: #{$val}px;
+    }
+  }
+}

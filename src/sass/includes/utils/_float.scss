@@ -1,0 +1,7 @@
+$value: left, right, none;
+
+@each $val in $value {
+  .u-float--#{$val} {
+    float: $val;
+  }
+}

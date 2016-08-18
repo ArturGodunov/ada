@@ -1,0 +1,7 @@
+$value: none, lowercase, uppercase, capitalize;
+
+@each $val in $value {
+  .u-text-case--#{$val} {
+    text-transform: $val;
+  }
+}
